@@ -103,6 +103,7 @@ Data downloaded form kaggle.
 
 ### Dictonary 
 
+#### Inital Dictonary
 
 | #  | Column          | Description     |
 | -- |  --------       |    --------     |
@@ -114,11 +115,31 @@ Data downloaded form kaggle.
 | 5  | peak-rank       | The highest rank the song got on the chart on it life time. throuout all the weeks |
 | 6  | weeks-on-board  | Number of weeks the song has been on the bored   | object  |
 
+
+#### Dictonary -FINAL- 
+
+| #  | Column             | Description     |
+| -- |  --------          |    --------     |
+| 0 | date                | The chart week  |
+| 1  | rank               | the rank of the song on that week  |
+| 2  | song               | Name of the song  |
+| 3  | artist             | Artist including featured artists  |
+| 4  | last-week          | The rank of the song on the previos week. Null mean the song was not on the chart last week or its it frist time entring the hot 100 |
+| 5  | peak-rank          | The highest rank the song got on the chart on it life time. throuout all the weeks |
+| 6  | weeks-on-board     | Number of weeks the song has been on the bored   |
+| 7  | Duration_ms        | The length of the song |
+| 8  | Spotify_popularity | The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are.(value between 0 and 100, with 100 being the most popular)|
+| 9  | Release_date       | Release date of the song |
+| 10 | Score              | Calculted score based on song rank |
+| 11 | Score_total        | Total song score on all weeks |
+
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- Spotify API -->
 ## Spotify API
 
 * For this i will be using Spotify api to collect songs information from Spotify. 
@@ -131,7 +152,7 @@ Data downloaded form kaggle.
 
 
 
-<!-- ROADMAP -->
+<!-- Machine learning -->
 ## Machine learning
 
 
@@ -139,7 +160,7 @@ Data downloaded form kaggle.
 
 
 
-<!-- CONTRIBUTING -->
+<!-- Refrances -->
 ## Refrances
 
 * Data Source [Billboard "The Hot 100" Songs](https://www.kaggle.com/dhruvildave/billboard-the-hot-100-songs)
