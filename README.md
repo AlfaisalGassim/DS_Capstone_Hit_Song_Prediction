@@ -103,12 +103,28 @@ Data downloaded form kaggle.
 
 ### Dictonary 
 
+
+| #  | Column          | Description     |
+| -- |  --------       |    --------     |
+| 0  | date            | The chart week  |
+| 1  | rank            | the rank of the song on that week  |
+| 2  | song            | Name of the song  |
+| 3  | artist          | Artist including featured artists  |
+| 4  | last-week       | The rank of the song on the previos week. Null mean the song was not on the chart last week or its it frist time entring the hot 100 |
+| 5  | peak-rank       | The highest rank the song got on the chart on it life time. throuout all the weeks |
+| 6  | weeks-on-board  | Number of weeks the song has been on the bored   | object  |
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Spotify API
+
+* For this i will be using Spotify api to collect songs information from Spotify. 
+* I will need to create a spotify developer account or login using my current account.
+* Get the client ID and client secret from spotify.
+* Write the script for the API,  I followed along with this video HERE.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -126,9 +142,10 @@ Data downloaded form kaggle.
 <!-- CONTRIBUTING -->
 ## Refrances
 
-* []()
-* []()
-* []()
+* Data Source [Billboard "The Hot 100" Songs](https://www.kaggle.com/dhruvildave/billboard-the-hot-100-songs)
+* Spotify API [Spotify for Developers](https://developer.spotify.com/documentation/web-api/)
+* Spotify Scrept Gudie [30-Days-of-Python](https://github.com/codingforentrepreneurs/30-Days-of-Python/tree/master/tutorial-reference/Day%2019)
+* README Template [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -138,7 +155,7 @@ Data downloaded form kaggle.
 
 Alfaisal Alqahtani - [Linkedin](https://www.linkedin.com/in/alfaisal-gassim-581029158/)
 
-Project Link: [https://github.com/AlfaisalGassim/DS_Capstone_Hit_Song_Prediction](https://github.com/github_username/repo_name)
+Project Link: [DS_Capstone_Hit_Song_Prediction](https://github.com/AlfaisalGassim/DS_Capstone_Hit_Song_Prediction)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
